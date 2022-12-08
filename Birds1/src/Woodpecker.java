@@ -29,6 +29,8 @@ public class Woodpecker extends Birds {
         }
     }
 //    Для теста:
-//    Woodpecker woody = new Woodpecker("Woody",32,1.8);
-//    woody.knocks();
+//    public static void main (String[] args) {
+//        Woodpecker woody = new Woodpecker("Woody",32,1.8);
+//        woody.knocks();
+//    }
 }
