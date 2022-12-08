@@ -1,6 +1,6 @@
 public class Ostrich extends Birds {
     public double egg = 0.01;
-    public Ostrich(String name, int age, double weight) {
+    public Ostrich(String name, int age, double weight,) {
         this.species = "Страус";
         this.flyable = false;
         this.name = name;
@@ -12,6 +12,9 @@ public class Ostrich extends Birds {
     }
     void fatality() {
         System.out.println("Страус нокаутировал смотрителя зоопарка");
+    }
+    void run() {
+        System.out.println("Страус убежал");
     }
     void layEgg() {
         try {
